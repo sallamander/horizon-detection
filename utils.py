@@ -14,7 +14,7 @@ def detect_horizon_line(image_grayscaled):
     :param image_grayscaled: grayscaled image to detect the horizon on, of
      shape (height, width)
     :type image_grayscale: np.ndarray of dtype uint8
-    :return: the (x1, x1, y1, y2) coordinates for the starting and ending
+    :return: the (x1, x2, y1, y2) coordinates for the starting and ending
      points of the detected horizon line
     :rtype: tuple(int)
     """

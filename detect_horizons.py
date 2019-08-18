@@ -69,7 +69,6 @@ def main():
 
         fpath_save = os.path.join(dirpath_output_images, fname_image)
         fpath_save = fpath_save.replace('jpg', 'png')
-        plt.tight_layout()
         fig.savefig(fpath_save, bbox_inches='tight')
         plt.close()
 
